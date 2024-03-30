@@ -1,3 +1,15 @@
 .navBarTOP {
     background-color: green;
+    text-align: center;
+}
+.navBarTOP a{
+    color:#fff;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+.navBarButton {
+    display: inline;
+    margin-right: 20px;
 }
