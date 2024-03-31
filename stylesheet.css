@@ -99,7 +99,7 @@ header {
     color: white;
     background-color: #f44336;
     border: none;
-    padding: 10px 20px;
+    padding: 3px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -111,8 +111,13 @@ header {
     background-color: #d32f2f;
 }
 
+/** Biography Image **/
+.biographyPic{
+    max-width: 50%;
+    max-height: 50%;;
+}
 
-/** Footer **/
+/** Footer with fixed position**/
 footer{
     position: absolute;
     background-color: #d32f2f;
