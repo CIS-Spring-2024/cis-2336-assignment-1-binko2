@@ -8,13 +8,32 @@
     </head>
 
     <body> 
+        <header> 
+            <h1> BINKORIA </h1>
+            <h2> ENJOY RICH FLAVORS!</h2>
+        </header>
+
         <!-- Navigation Bar on Top of Pages -->
-        <div class="navBarTOP" id="navBar"> 
-        <a href="#" class="navBarButton"> Home </a>
-        <a href="#" class="navBarButton"> About </a>
-        <a href="#" class="navBarButton"> Menu </a>
-        <a href="#" class="navBarButton"> Order </a>
-        <a href="#" class="navBarButton"> Contact Us </a>
-        </div>
+        <div class="navbar">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html" target="blank">About</a>
+            <a href="biography.html">Biography</a>
+            <!-- dropdown menu with selections for breakfast, lunch, and dinner menus-->
+            <div class="dropdown">
+              <button class="dropbutton">Menu
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+              </div>
+            </div>
+            <a href="contactus.html" target="blank">Contact Us</a>
+            <div class="cta">
+                <a href="order.html">Order</a>
+            </div>
+            
+          </div>
     </body>
 </html>
