@@ -8,16 +8,17 @@
 }
 /** navBar css **/
 
+
 header {
     
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #123;
+    background-color: #FF5757;
     color: white;
     width:100%;
     text-align:center;
     padding:0%;
   }
-  header img{
+header img{
     
     display:inline-block;
     margin: 0 auto;
@@ -90,6 +91,8 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/** call to action Order button **/
 .cta {
     float: right;
     padding: 14px 16px;
@@ -115,11 +118,24 @@ header {
 .biographyPic{
     max-width: 50%;
     max-height: 50%;;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    float:left;
+    shape-outside: ellipse(50% 50%);
+    shape-image-threshold: 1;
+    shape-margin: 2%;
 }
+
+/** add padding around the img/container **/
+.container {
+    padding-top: 50px;
+    padding-bottom: 800px;
+}
+
 
 /** Footer with fixed position**/
 footer{
-    position: absolute;
     background-color: #d32f2f;
     color: white;
     padding: 14px 16px;
