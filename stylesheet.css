@@ -5,10 +5,11 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    
 }
+
+
 /** navBar css **/
-
-
 header {
     
     font-family: Arial, Helvetica, sans-serif;
@@ -21,12 +22,14 @@ header {
 header img{
     
     display:inline-block;
+    border-radius: 50%;
     margin: 0 auto;
 
   }
   header h2{
     text-align:center;
     text-align: top;
+    padding-bottom: 20px;
   }
 .navbar {
     overflow: hidden;
@@ -141,4 +144,18 @@ footer{
     padding: 14px 16px;
     width: 100%;
     bottom: 0;
+    position:relative;
+}
+.logoFooter{
+    
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+.logoFooter img {
+    width: 75px;
+    border-radius: 50%;
+    height: auto;
 }
